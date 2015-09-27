@@ -19,6 +19,30 @@
   src:url('fonts/Alef-Bold.ttf');
 }
 
+.main-page {
+  text-decoration:none !important;
+  color: #fff !important;
+}
+
+
+.main-page:hover {
+  text-decoration:none !important;
+  color: #EA9312 !important;
+}
+
+body:before {
+  position:absolute;
+  bottom:0;
+  right:0px;
+  width:100%;
+  height:250px;
+  background:url(imgs/ruby-px.png);
+  background-repeat:no-repeat;
+  background-position: 50px 90px;
+  background-size: 180px auto;
+  content:'';
+}
+
 body {
   background: #D3360B;
   background-color: #D3360B; }
@@ -212,19 +236,10 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #eee;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  height: 550px;
+}
 
-.reveal a img {
-  -webkit-transition: all 0.15s linear;
-  -moz-transition: all 0.15s linear;
-  transition: all 0.15s linear; }
 
-.reveal a:hover img {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: #a23;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
