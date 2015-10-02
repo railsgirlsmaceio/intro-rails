@@ -37,86 +37,99 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>Rails Girls Maceió</h1>
-					<!-- <h3>The HTML Presentation Framework</h3> -->
+        <section>
+          <h1>Ruby on Rails</h1>
+          <h3>Rails Girls Maceió 2015</h3>
 				</section>
 
-				<section>
-					<h2>Ferramentas que iremos utilizar</h2>
-					<ul>
-						<li class="fragment">Terminal/Prompt de Comando</li>
-						<li class="fragment">Editor de Texto (Sublime Text 3)</li>
-						<li class="fragment">Navegador Web</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>O que são linguagens de programação?</h2>
-				</section>
-
-				<section>
-					<h2>Ruby</h2>
-				</section>
-
-				<section>
-					<h2>tryruby.org</h2>
-					<!-- ou algo parecido -->
-				</section>
-
-				<section>
-					<h2>O que é Rails?</h2>
-				</section>
-
-				<section>
-					<h2>Model - View - Controller</h2>
-          <p>~imagem legal sobre mvc~</p>
-          <!-- http://codethinked.wpengine.netdna&#45;cdn.com/wp&#45;content/uploads/WindowsLiveWriter/Micr.netMVCFrameworkandwhatitmeansforyou_11621/Model&#45;View&#45;Controller&#45;Drawing_7273883f&#45;0134&#45;4c38&#45;9fa2&#45;242480010730.jpg -->
+         <section>
+          <img src="imgs/ruby.png" style="height: 450px" />
+          <h3>Ruby é uma linguagem de programação</h3>
         </section>
 
-				<section>
-					<h2>Estrutura do projeto</h2>
-				</section>
+        <section>
+          <h2>Linguagem de programação:<br />
+            Interprete para você falar com o computador</h2>
+        </section>
 
-				<section>
-				<h2>Criando um projeto em Rails</h2>
-					<pre><code data-trim contenteditable>
-$ rails new blog
-					</code></pre>
-				</section>
+        <section>
+          <img src="imgs/rails.png" style="height: 450px" />
+          <h3>Rails é um framework
+            para desenvolver aplicações web</h3>
+        </section>
 
-				<section>
-				<h2>Iniciando o servidor</h2>
-					<pre><code data-trim contenteditable>
-$ rails server
-					</code></pre>
-				</section>
+        <section>
+          <img src="imgs/tools.png" style="height: 450px" />
+          <h3>Framework:<br />
+            Quantidade enorme de código pronto</h3>
+        </section>
 
-				<section>
-			<!-- mostrar estrutura do projeto, com relacionamentos -->
-				</section>
-			</div>
-		</div>
+        <section>
+          <h2>Aplicação Web: <br />
+            um programa na internet</h2>
+        </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <section>
+          <img src="imgs/facebook.png" style="height: 170px" />
+        </section>
 
-		<script>
+        <section>
+          <img src="imgs/twitter.png" style="height: 170px" />
+        </section>
 
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+        <section>
+          <img src="imgs/gmail.png" style="height: 350px" />
+        </section>
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+        <section>
+          <img src="imgs/netflix.png" style="height: 230px" />
+        </section>
 
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        <section>
+          <h1>Como assim, na internet?</h1>
+        </section>
+
+        <section>
+          <img src="imgs/server.png" style="height: 450px" />
+          <h3>Servidor</h3>
+        </section>
+
+        <section>
+          <img src="imgs/server.png" style="height: 450px" />
+          <h3>Usuário - Servidor - Usuário</h3>
+        </section>
+
+        <section>
+          <img src="imgs/server.png" style="height: 450px" />
+          <h3 style="margin:0px; padding:0px">Nós vamos programar o servidor!</h3>
+        </section>
+
+        <section>
+          <img src="imgs/server-rails.png" style="height: 450px" />
+          <h3>Em Ruby, com Rails!</h3>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins
+      dependencies: [
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },

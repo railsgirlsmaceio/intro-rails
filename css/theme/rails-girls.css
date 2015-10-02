@@ -38,8 +38,8 @@ body:before {
   height:250px;
   background:url(imgs/ruby-px.png);
   background-repeat:no-repeat;
-  background-position: 50px 90px;
-  background-size: 180px auto;
+  background-position: 50px 50px;
+  background-size: 220px auto;
   content:'';
 }
 
@@ -95,10 +95,6 @@ body {
   line-height: 1.3; }
 
 /* Ensure certain elements are never larger than the slide itself */
-.reveal img, .reveal video, .reveal iframe {
-  max-width: 95%;
-  max-height: 95%; }
-
 .reveal strong, .reveal b {
   font-weight: bold; }
 
@@ -234,10 +230,10 @@ body {
 /*********************************************
  * IMAGES
  *********************************************/
-.reveal section img {
-  margin: 15px 0px;
-  height: 550px;
-}
+/* .reveal section img { */
+  /* margin: 15px 0px; */
+  /* height: 550px; */
+/* } */
 
 
 
